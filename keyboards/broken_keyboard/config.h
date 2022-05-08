@@ -23,7 +23,7 @@
 /* Use 1000hz polling */
 #define USB_POLLING_INTERVAL_MS 1
 
-//#define EE_HANDS
+#define EE_HANDS
 // #define MASTER_LEFT // default
  //#define MASTER_RIGHT
 
@@ -49,5 +49,5 @@
 #define I2C1_SCL_PIN        B6
 #define I2C1_SDA_PIN        B7
 #define OLED_BRIGHTNESS 32 // 128 default?
-#define OLED_TIMEOUT 1000 //ms
+#define OLED_TIMEOUT 500 //ms
 #endif
